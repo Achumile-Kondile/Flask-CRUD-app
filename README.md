@@ -33,9 +33,36 @@ This is a simple **Flask-based CRUD application** for managing users. You can cr
 Install Flask:
 ```bash
 pip install flask
-
+```
+Or install from requirements.txt:
+```bash
 pip install -r requirements.txt
+```
 
 ### ▶️ Run the App
+```bash
 python app.py
+```
+Then open your browser and go to:
+```bash
+http://127.0.0.1:5000
+```
+### Project Structure
+crud-app/
+├── app.py
+├── requirements.txt
+├── static/
+│   └── style.css
+├── templates/
+│   ├── index.html
+│   ├── create.html
+│   └── update.html
+├── images/
+│   └── *.png
+└── README.md
+
+🛠 Tech Stack
+Python(Flask)
+HTML + CSS
+
 
