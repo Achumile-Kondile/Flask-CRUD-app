@@ -46,9 +46,9 @@ python app.py
 Then open your browser and go to:
 ```bash
 http://127.0.0.1:5000
-
+```
 ### Project Structure
-
+```bash
 crud-app/
 ├── app.py
 ├── requirements.txt
@@ -61,7 +61,7 @@ crud-app/
 ├── images/
 │   └── *.png
 └── README.md
----
+```
 ### 🛠 Tech Stack
 
 Python (Flask)
