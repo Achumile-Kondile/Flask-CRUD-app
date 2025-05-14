@@ -16,7 +16,7 @@ This is a simple **Flask-based CRUD application** for managing users. You can cr
 ## 📸 Screenshots
 
 ### 🔹 Home Page
-![Home](images/Home%20page.png)
+![Home](https://github.com/Achumile-Kondile/Flask-CRUD-app/blob/main/images/app.py.png)
 
 ### 🔹 Add User Page
 ![Add](images/Add%20User%20page.png)
