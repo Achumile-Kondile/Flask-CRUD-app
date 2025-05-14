@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Edit User</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h2>Edit User</h2>
+    <form method="POST">
+        <input type="text" name="name" value="{{ user.name }}" required>
+        <button type="submit">Update</button>
+    </form>
+    <a href="/">Back</a>
+</body>
+</html>
