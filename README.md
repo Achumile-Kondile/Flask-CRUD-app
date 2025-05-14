@@ -48,6 +48,7 @@ Then open your browser and go to:
 http://127.0.0.1:5000
 ```
 ### Project Structure
+---
 crud-app/
 ├── app.py
 ├── requirements.txt
@@ -60,9 +61,11 @@ crud-app/
 ├── images/
 │   └── *.png
 └── README.md
+---
+### 🛠 Tech Stack
 
-🛠 Tech Stack
-Python(Flask)
+Python (Flask)
+
 HTML + CSS
 
 
