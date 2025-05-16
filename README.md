@@ -17,23 +17,38 @@ This is a simple **Flask-based CRUD application** for managing users. You can cr
 
 ## Screenshots
 
-### Homepage
+### 1. index.html – Home Page (User List)
 ![Homepage](images/index.html.png)
 
-### Update Page
+The homepage displays all users in a table. Each row has "Update" and "Delete" buttons. It uses Jinja templating to render user data passed from `app.py`.
+---
+
+### 2. update.html – Update Existing User
 ![Update Page](images/update.html.png)
 
-### App.py View
+This page shows a pre-filled form with the user’s current details. It allows editing and submits updated info via POST to `/update/<user_id>`.
+---
+
+### 3. App.py – The Flask Application Logic
 ![App Py](images/app.py.png)
 
-### Create Page
+This is the heart of the app. It imports Flask, defines the routes, and handles the logic for displaying, creating, updating, and deleting users. Key routes include `/`, `/create`, `/update/<id>`, and `/delete/<id>`.
+---
+
+### 4.  create.html – Add New User Form
 ![Create Page](images/create.html.png)
 
-### Style Preview 1
+This page includes a form to input a new user's name and email. On submission, the data is sent to the `/create` route to add the user to the list.
+---
+
+### 5.  style.css – Styling the App
+## Style Preview 1
 ![Style CSS 1](images/style1.png)
 
-### Style Preview 2
+## Style Preview 2
 ![Style CSS 2](images/style2.png)
+
+Custom CSS that styles the layout, buttons, and forms. It ensures the interface is clean, responsive, and easy to use.
 
 
 ---
