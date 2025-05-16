@@ -80,20 +80,21 @@ Then open your browser and go to:
 ```bash
 http://127.0.0.1:5000
 ```
-### Project Structure
+### 📁 Project Structure
+
 ```bash
 crud-app/
-├── app.py
-├── requirements.txt
+├── app.py                 # Main Flask application
+├── requirements.txt       # Dependencies
 ├── static/
-│   └── style.css
+│   └── style.css          # CSS styling
 ├── templates/
-│   ├── index.html
-│   ├── create.html
-│   └── update.html
+│   ├── index.html         # Home page (list users)
+│   ├── create.html        # Form to add users
+│   └── update.html        # Form to edit users
 ├── images/
-│   └── *.png
-└── README.md
+│   └── *.png              # Screenshots for README
+└── README.md              # Project documentation
 ```
 ### 🛠 Tech Stack
 
