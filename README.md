@@ -35,6 +35,7 @@ This is a simple **Flask-based CRUD application** for managing users. You can cr
 ### Style Preview 2
 ![Style CSS 2](images/style.css(2).png)
 
+
 ---
 
 ## ⚙️ How to Run the Project
