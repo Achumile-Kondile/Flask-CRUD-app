@@ -20,26 +20,32 @@ This is a simple **Flask-based CRUD application** for managing users. You can cr
 ### 1. index.html – Home Page (User List)
 ![Homepage](images/index.html.png)
 
-The homepage displays all users in a table. Each row has "Update" and "Delete" buttons. It uses Jinja templating to render user data passed from `app.py`.
----
+This is the main page of the app. It displays a list of all users with their names, along with options to edit or delete each user. There's also a link to navigate to the add user form. The data is rendered using Jinja templating.
 
 ### 2. update.html – Update Existing User
 ![Update Page](images/update.html.png)
 
-This page shows a pre-filled form with the user’s current details. It allows editing and submits updated info via POST to `/update/<user_id>`.
----
+This page shows a form with the selected user's current name pre-filled. Users can edit the name and submit the form to update the information via a POST request. A "Back" link is provided to return to the homepage.
+
 
 ### 3. App.py – The Flask Application Logic
 ![App Py](images/app.py.png)
 
-This is the heart of the app. It imports Flask, defines the routes, and handles the logic for displaying, creating, updating, and deleting users. Key routes include `/`, `/create`, `/update/<id>`, and `/delete/<id>`.
----
+This is the core of the application. It initializes Flask, stores user data in memory using a list, and defines all routes:
+
+- `/` – Displays the list of users.
+- `/create` – Shows a form and handles submission for adding a new user.
+- `/update/<id>` – Displays a form with the user’s current name and allows updating it.
+- `/delete/<id>` – Deletes the selected user.
+
+All views are rendered with HTML templates using Jinja, and data is passed between routes via Flask.
+
 
 ### 4.  create.html – Add New User Form
 ![Create Page](images/create.html.png)
 
-This page includes a form to input a new user's name and email. On submission, the data is sent to the `/create` route to add the user to the list.
----
+This page displays a simple form with a single input field for the user's name. When submitted, the form sends a POST request to add the new user. It also includes a link to return to the homepage.
+
 
 ### 5.  style.css – Styling the App
 ## Style Preview 1
@@ -48,7 +54,7 @@ This page includes a form to input a new user's name and email. On submission, t
 ## Style Preview 2
 ![Style CSS 2](images/style2.png)
 
-Custom CSS that styles the layout, buttons, and forms. It ensures the interface is clean, responsive, and easy to use.
+This CSS file defines the visual design of the app. It uses a light, clean layout with soft shadows, rounded corners, and subtle hover effects. It styles headers, buttons, forms, links, and list items to improve readability and user experience.
 
 
 ---
