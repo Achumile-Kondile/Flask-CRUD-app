@@ -18,22 +18,22 @@ This is a simple **Flask-based CRUD application** for managing users. You can cr
 ## Screenshots
 
 ### Homepage
-![Homepage](images/index.png)
+![Homepage](images/index.html.png)
 
 ### Update Page
-![Update Page](images/update.png)
+![Update Page](images/update.html.png)
 
 ### App.py View
-![App Py](images/app.png)
+![App Py](images/app.py.png)
 
 ### Create Page
-![Create Page](images/create.png)
+![Create Page](images/create.html.png)
 
 ### Style Preview 1
-![Style CSS 1](images/style1.png)
+![Style CSS 1](images/style.css(1).png)
 
 ### Style Preview 2
-![Style CSS 2](images/style2.png)
+![Style CSS 2](images/style.css(2).png)
 ---
 
 ## ⚙️ How to Run the Project
